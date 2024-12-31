@@ -22,19 +22,70 @@ html,body{
 
 body{
     min-height: 100dvh;
-    display: grid;
-    place-items: center;
-    text-align: center;
 }
 
-.subtitle{
+/*Class Generica Geral*/
+.flex{
+    display: flex;
+}
+
+.grid{
+    display: grid;
+}
+
+.max-container1280{
+    width:1280px;
+    margin: auto;
+}
+/* .subtitle{
     display: block;
 }
-
 ion-icon{
     font-size: 5em;
 }
-
 p{
     font-size: 1.5em;
+} */
+
+.headerTop{
+    background-color: red;
 }
+.container-hTop{
+    background-color: blue;
+}
+.logoBox-hTop{
+
+    width: 3em;
+}
+.logo-hTop{
+    width: 100%;
+}
+
+.boxSearch-hTop{}
+.boxSearch-hTop label{}
+.boxSearch-hTop label input{}
+.boxSearch-hTop ion-icon{}
+
+.navBar-hTop{}
+.menuBar-hTop{
+}
+
+.ulMenu-hTop{}
+.ulMenu-hTop li{
+    list-style: none;
+}
+.ulMenu-hTop li a{
+    color: white;
+    transition: height 2s all;
+}
+.ulSubMenu-hTop{
+    
+}   
+.ulMenu-hTop li a:hover .ulSubMenu-hTop{
+    
+}
+
+
+
+
+
