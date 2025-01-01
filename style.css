@@ -7,7 +7,9 @@ font-family: "Poppins", serif;
 font-family: "Roboto", serif;
 font-family: "Source Sans 3", serif;
 */
-
+:root{
+    --max-cont:1280px;
+}
 
 *{
     padding: 0;
@@ -35,7 +37,15 @@ body{
 
 .max-container1280{
     width:1280px;
-    margin: auto;
+    margin:0 auto;
+}
+
+.center-absolute{
+    width:1280px;
+}
+
+.show{
+    display: block;
 }
 /* .subtitle{
     display: block;
@@ -48,40 +58,62 @@ p{
 } */
 
 .headerTop{
-    background-color: red;
+    padding: 1em 0;
 }
 .container-hTop{
-    background-color: blue;
+   justify-content: space-between;
 }
 .logoBox-hTop{
-
     width: 3em;
 }
 .logo-hTop{
     width: 100%;
 }
-
-.boxSearch-hTop{}
-.boxSearch-hTop label{}
-.boxSearch-hTop label input{}
-.boxSearch-hTop ion-icon{}
-
-.navBar-hTop{}
-.menuBar-hTop{
+.boxSearch-hTop{
+    align-items: center;
+    width: 30%;
+}
+.boxSearch-hTop label{
+    width: 100%;
+}
+.boxSearch-hTop label input{
+    width: 100%;
+}
+.boxSearch-hTop ion-icon{
+    padding: 2px;
+    color: white;
+    background-color: #3c3c3c;
 }
 
-.ulMenu-hTop{}
+.navBar-hTop{position: relative;
+    display: none;
+}
+.menuBar-hTop{
+    
+}
+
+.ulMenu-hTop{
+    
+    
+}
 .ulMenu-hTop li{
     list-style: none;
 }
 .ulMenu-hTop li a{
-    color: white;
+    padding: 5px;
+    text-decoration: none;
+    color: #3c3c3c;
     transition: height 2s all;
+    border: 1px solid;
 }
+
 .ulSubMenu-hTop{
-    
+    position: absolute;
+    left: 0;
+    padding: 2%;
+    justify-content: space-between;
 }   
-.ulMenu-hTop li a:hover .ulSubMenu-hTop{
+.SubMenuItens-tOp{
     
 }
 
