@@ -60,60 +60,70 @@ p{
 .headerTop{
     padding: 1em 0;
 }
-.container-hTop{
+.container{
    justify-content: space-between;
 }
-.logoBox-hTop{
+.logoBox{
     width: 3em;
 }
-.logo-hTop{
+.logo{
     width: 100%;
 }
-.boxSearch-hTop{
+.boxSearch{
     align-items: center;
     width: 30%;
 }
-.boxSearch-hTop label{
+.boxSearch label{
     width: 100%;
 }
-.boxSearch-hTop label input{
+.boxSearch label input{
     width: 100%;
 }
-.boxSearch-hTop ion-icon{
+.boxSearch ion-icon{
     padding: 2px;
     color: white;
     background-color: #3c3c3c;
 }
 
-.navBar-hTop{position: relative;
-    display: none;
+.navBar{
+    position: relative;
+    /* display: none; */
 }
-.menuBar-hTop{
+.menuBar{
     
 }
 
-.ulMenu-hTop{
-    
+.ulMenu{
     
 }
-.ulMenu-hTop li{
+.ulMenu li{
     list-style: none;
 }
-.ulMenu-hTop li a{
+.ulMenu li a{
     padding: 5px;
     text-decoration: none;
     color: #3c3c3c;
-    transition: height 2s all;
     border: 1px solid;
+    transition: background-color 1s;
+    
 }
 
-.ulSubMenu-hTop{
+.ulMenu li .a-link:hover{
+    background-color: aqua;
+}
+
+.ulMenu li .a-link.show .divSubMenu{
+   background-color: red;
+}
+
+.divSubMenu{
     position: absolute;
+    
     left: 0;
     padding: 2%;
     justify-content: space-between;
 }   
-.SubMenuItens-tOp{
+.SubMenuItens{
     
 }
 
