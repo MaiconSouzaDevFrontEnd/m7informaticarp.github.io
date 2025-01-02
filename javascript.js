@@ -1,5 +1,5 @@
 const ulMenu =document.querySelectorAll('.ulMenu');
-const aLink = document.querySelectorAll('.a-link');
+const aLink =[...document.querySelectorAll('.a-link')];
 const divSubMenu = document.querySelectorAll('.divSubMenu')
 
 aLink.forEach((item) => {
@@ -8,9 +8,16 @@ aLink.forEach((item) => {
     function navFunction(e){
         e.stopPropagation();
         let event = e.target;
-        event.classList.toggle('show')
+        event.classList.toggle('show');
+        elInterno();
+    }
+
+    function elInterno(){
+      if()
     }
 });
+
+
 
 /* elementoSite.forEach((item) => {
   item.addEventListener('click', clicando);
