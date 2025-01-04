@@ -45,7 +45,10 @@ body{
 }
 
 .show{
-    display: inline-block;
+    background-color: red;
+}
+.display{
+    background-color: purple;
 }
 /* .subtitle{
     display: block;
