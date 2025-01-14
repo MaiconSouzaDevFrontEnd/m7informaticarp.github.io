@@ -134,4 +134,64 @@ p{
 
 
 
+/*__SECTIONS__*/
 
+section.informatica{
+}
+div.subInfomatica{
+    flex-wrap:wrap;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+}
+
+/* card */
+.card{
+    width: 250px;
+    box-shadow: 0 0 6px 1px;
+    padding:5px;
+}
+
+.card-item{
+    text-decoration: none;
+}
+
+.card-img{}
+.card-imgProduct{width: 100%;}
+
+.card-title{
+    font-size: 1.5em;
+    color: #3c3c3c;
+}
+
+.card-containerPrice{
+    color: #3c3c3c;
+}
+.card-price{
+    font-size: 1.8em;
+}
+.card-priceSub{
+    font-size: 0.8em;
+    display: inline-block;
+}
+
+.card-btns{
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.card-btns p{width: 100%;}
+.card-btn{
+    padding: 10px 30px;
+    text-decoration: none;
+    color: white;
+    background-color: #3a3a3a;
+    width: 100%;
+}
+.card-btnCard{}
+.card-btnPix{}
+
+/* card-Details */
+.card-boxDetails{}
+
+/* card-end */
