@@ -36,29 +36,9 @@ body{
 }
 
 .max-container1280{
-    width:1280px;
+    width:1200px;
     margin:0 auto;
 }
-
-.center-absolute{
-    width:1280px;
-}
-
-.show{
-    background-color: red;
-}
-.display{
-    background-color: purple;
-}
-/* .subtitle{
-    display: block;
-}
-ion-icon{
-    font-size: 5em;
-}
-p{
-    font-size: 1.5em;
-} */
 
 .headerTop{
     padding: 1em 0;
@@ -139,15 +119,12 @@ p{
 section.informatica{
 }
 div.subInfomatica{
-    flex-wrap:wrap;
-    justify-content: start;
-    align-items: center;
     gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 250px));
 }
 
 /* card */
 .card{
-    width: 250px;
     box-shadow: 0 0 6px 1px;
     padding:5px;
 }
@@ -165,43 +142,56 @@ div.subInfomatica{
     width: 100%;
 }
 
+/* .img{
+    width: 100%;
+    max-width: 100%;
+    display: block;
+    aspect-ratio: 1 / 1;
+    object-fit: contain;
+
+} */
+
 .card-title{
-    margin-top: .5em;
+    margin-top: .9em;
     font-size: 1.150em;
     color: #3c3c3c;
 }
 
 .card-containerPrice{
     color: #3c3c3c;
-    font-family: "Poppins", serif;
-    height: 45px;
-    
+    font-family:'Pompins' serif;
+    justify-content:center;
+    align-items:center;
 }
+
 .card-price{
     font-size: 2em;
 }
+
 .card-priceSub{
-    font-size: 25px;
+    font-size: 1.5em;
 }
 
 .card-btns{
-    display: none;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     text-align: center;
 }
-.card-btns p{width: 100%;}
+
+.card-btns p, .card-btn{
+    width: 100%;
+}
+
 .card-btn{
     padding: 10px 30px;
     text-decoration: none;
     color: white;
     background-color: #3a3a3a;
-    width: 100%;
 }
 .card-btnCard{}
 .card-btnPix{}
 
 /* card-Details */
-.card-boxDetails{}
+.card-boxDetails{display: none;}
 
 /* card-end */
