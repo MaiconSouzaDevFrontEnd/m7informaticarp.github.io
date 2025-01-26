@@ -116,11 +116,19 @@ body{
 
 /*__SECTIONS__*/
 
-section.informatica{
+.sections{
+    padding: 6rem 0;
 }
-div.subInfomatica{
+
+.titleSections{
+    text-transform: uppercase;
+}
+
+.subSections{
+    padding-top: 0.5rem;
+    border-top: 0.2rem solid #000;
     gap: 20px;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 250px));
+    grid-template-columns: repeat(auto-fit, minmax(180px, 280px));
 }
 
 /* card */
@@ -131,13 +139,16 @@ div.subInfomatica{
 
 .card-item{
     text-decoration: none;
+    flex-direction: column;
 }
 
 .card-img{
     height: 250px;
-    border: 1px solid;
+    border-bottom: 1px solid;
 }
 .card-imgProduct{
+    display: block;
+    object-fit: contain;
     height: 100%;
     width: 100%;
 }
@@ -153,45 +164,35 @@ div.subInfomatica{
 
 .card-title{
     margin-top: .9em;
-    font-size: 1.150em;
+    font-size: 1.250em;
+    padding: 0 .5rem;
     color: #3c3c3c;
-}
-
-.card-containerPrice{
-    color: #3c3c3c;
-    font-family:'Pompins' serif;
-    justify-content:center;
-    align-items:center;
+    flex:1;
 }
 
 .card-price{
-    font-size: 2em;
-}
-
-.card-priceSub{
-    font-size: 1.5em;
-}
-
-.card-btns{
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-}
-
-.card-btns p, .card-btn{
-    width: 100%;
+    color: #3c3c3c;
+    font-family:'Pompins' serif;
+    font-size: 2.5em;
+    font-weight: 600;
 }
 
 .card-btn{
+    text-align: center;
+}
+
+.card-buy{
+    display: block;
     padding: 10px 30px;
     text-decoration: none;
     color: white;
     background-color: #3a3a3a;
 }
-.card-btnCard{}
-.card-btnPix{}
+
 
 /* card-Details */
-.card-boxDetails{display: none;}
+.card-boxDetails{
+    display: none;
+}
 
 /* card-end */
