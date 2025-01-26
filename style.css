@@ -36,26 +36,9 @@ body{
 }
 
 .max-container1280{
-    width:1280px;
+    width:1200px;
     margin:0 auto;
 }
-
-.center-absolute{
-    width:1280px;
-}
-
-.show{
-    display: block;
-}
-/* .subtitle{
-    display: block;
-}
-ion-icon{
-    font-size: 5em;
-}
-p{
-    font-size: 1.5em;
-} */
 
 .headerTop{
     padding: 1em 0;
@@ -94,7 +77,7 @@ p{
 }
 
 .ulMenu{
-    
+    background-color: rgb(111, 124, 248);
 }
 .ulMenu li{
     list-style: none;
@@ -102,19 +85,20 @@ p{
 .ulMenu li a{
     padding: 5px;
     text-decoration: none;
-    color: #3c3c3c;
+    background-color: rgb(30, 61, 61);
+    color: whitesmoke;
     border: 1px solid;
     transition: background-color 1s;
     
 }
 
-.ulMenu li .a-link:hover{
-    background-color: aqua;
+/* .ulMenu li .a-link:hover{
+    
 }
 
 .ulMenu li .a-link.show .divSubMenu{
-   background-color: red;
-}
+  
+} */
 
 .divSubMenu{
     position: absolute;
@@ -130,4 +114,85 @@ p{
 
 
 
+/*__SECTIONS__*/
 
+.sections{
+    padding: 6rem 0;
+}
+
+.titleSections{
+    text-transform: uppercase;
+}
+
+.subSections{
+    padding-top: 0.5rem;
+    border-top: 0.2rem solid #000;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 280px));
+}
+
+/* card */
+.card{
+    box-shadow: 0 0 6px 1px;
+    padding:5px;
+}
+
+.card-item{
+    text-decoration: none;
+    flex-direction: column;
+}
+
+.card-img{
+    height: 250px;
+    border-bottom: 1px solid;
+}
+.card-imgProduct{
+    display: block;
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
+
+/* .img{
+    width: 100%;
+    max-width: 100%;
+    display: block;
+    aspect-ratio: 1 / 1;
+    object-fit: contain;
+
+} */
+
+.card-title{
+    margin-top: .9em;
+    font-size: 1.250em;
+    padding: 0 .5rem;
+    color: #3c3c3c;
+    flex:1;
+}
+
+.card-price{
+    color: #3c3c3c;
+    font-family:'Pompins' serif;
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+.card-btn{
+    text-align: center;
+}
+
+.card-buy{
+    display: block;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: white;
+    background-color: #3a3a3a;
+}
+
+
+/* card-Details */
+.card-boxDetails{
+    display: none;
+}
+
+/* card-end */
