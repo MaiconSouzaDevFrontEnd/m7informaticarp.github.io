@@ -121,18 +121,23 @@ body{
 /*__SECTIONS__*/
 
 .sections{
-    padding: 1rem 0;
+    padding: 5rem 0;
 }
 
 .titleSections{
     text-transform: uppercase;
+    border-bottom: 0.2rem solid #3a3a3a;;
 }
 
 .subSections{
     padding-top: 0.5rem;
-    border-top: 0.2rem solid #000;
+    
     gap: 10px;
     grid-template-columns: repeat(auto-fit, minmax(180px, 230px));
+}
+
+.titleSubSections{
+    border-bottom: .2rem solid #3a3a3a;
 }
 
 /* card */
@@ -168,7 +173,8 @@ body{
 
 .card-title{
     margin-top: .9em;
-    font-size: .9em;
+    
+    font-size: 1em;
     padding: 0 .1rem;
     color: #3c3c3c;
 }
