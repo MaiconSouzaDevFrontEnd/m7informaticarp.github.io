@@ -26,7 +26,7 @@ body{
     min-height: 100dvh;
 }
 
-/*Class Generica Geral*/
+/*Class Generica Geral ***********************************/
 .flex{
     display: flex;
 }
@@ -57,19 +57,31 @@ body{
     width: 100%;
 }
 .boxSearch{
+    border: 1px solid #000;
+    border-radius: 40px;
+    overflow: hidden;
     align-items: center;
-    width: 30%;
+    width: 40%;
+    display: none;
 }
+
 .boxSearch label{
     width: 100%;
 }
 .boxSearch label input{
     width: 100%;
+    border: none;
+    cursor: not-allowed;
+    outline: none;
 }
+/* .boxSearch div{
+   
+} */
+
 .boxSearch ion-icon{
-    padding: 2px;
-    color: white;
-    background-color: #3c3c3c;
+    font-size: 20px;
+    color: #3c3c3c;
+    margin-right: 10px;
 }
 
 .navBar{
@@ -111,14 +123,11 @@ body{
     padding: 2%;
     justify-content: space-between;
 }   
-.SubMenuItens{
+/* .SubMenuItens{
     
-}
+} */
 
-
-
-
-/*__SECTIONS__*/
+/*__SECTIONS__ ***********************************/
 
 .sections{
     padding: 5rem 0;
@@ -140,7 +149,7 @@ body{
     border-bottom: .2rem solid #3a3a3a;
 }
 
-/* card */
+/* card **********************************/
 .card{
     box-shadow: 0 0 6px 1px;
     padding:5px;
@@ -210,7 +219,7 @@ body{
 }
 
 
-/* card-Details */
+/* card-Details  ***********************************/
 .card-boxDetails{
     display: none;
 }
