@@ -76,9 +76,9 @@ body{
     position: relative;
     display: none;
 }
-.menuBar{
+/* .menuBar{
     
-}
+} */
 
 .ulMenu{
     background-color: rgb(111, 124, 248);
@@ -147,8 +147,8 @@ body{
 }
 
 .card-item{
-    text-decoration: none;
     flex-direction: column;
+    text-decoration: none;
 }
 
 .card-img{
@@ -173,15 +173,19 @@ body{
 
 .card-title{
     margin-top: .9em;
-    
     font-size: 1em;
     padding: 0 .1rem;
     color: #3c3c3c;
 }
 
-.card-containerPrice{
-    
+.card-item ul{
+    list-style: none;
+    font-size: 16px;
 }
+
+/* .card-containerPrice{
+    
+} */
 
 .card-price{
     display: inline-block;
