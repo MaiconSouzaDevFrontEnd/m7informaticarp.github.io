@@ -118,7 +118,6 @@ body{
 
 .divSubMenu{
     position: absolute;
-    
     left: 0;
     padding: 2%;
     justify-content: space-between;
@@ -130,39 +129,52 @@ body{
 /*__SECTIONS__ ***********************************/
 
 .sections{
-    padding: 5rem 0;
+    padding: 5rem 0 0;
 }
 
 .titleSections{
+    width: 30%;
+    clip-path: polygon(0 0, 100% 0%, 85% 100%, 0 100%);
+
     text-transform: uppercase;
-    border-bottom: 0.2rem solid #3a3a3a;;
+    color: white;
+    background-color: #3a3a3a;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 .subSections{
     padding-top: 0.5rem;
-    
-    gap: 10px;
+    gap: 4% 1%;
     grid-template-columns: repeat(auto-fit, minmax(180px, 230px));
+    margin-bottom: 6rem;
+    
 }
 
 .titleSubSections{
-    border-bottom: .2rem solid #3a3a3a;
+    color: white;
+    background-color:#3a3a3a;
+    margin-bottom: 2rem;
+   /*  clip-path: polygon(0 0, 100% 0%, 100% 100%, 15% 100%); */
+    text-align: center;
+    text-transform: uppercase;
 }
 
 /* card **********************************/
 .card{
-    box-shadow: 0 0 6px 1px;
-    padding:5px;
+    border-radius: 5px;
+    border: 0.001rem solid #3a3a3a;
 }
 
 .card-item{
+    
     flex-direction: column;
     text-decoration: none;
 }
 
 .card-img{
     height: 180px;
-    /* border-bottom: 1px solid black; */
+    margin-top: 15px;
 }
 .card-imgProduct{
     display: block;
@@ -185,11 +197,17 @@ body{
     font-size: 1em;
     padding: 0 .1rem;
     color: #3c3c3c;
+    text-align: center;
+
 }
 
 .card-item ul{
     list-style: none;
     font-size: 16px;
+    color:#000;
+    flex-grow: 1;
+    padding: 5px;
+    text-align: center;
 }
 
 /* .card-containerPrice{
@@ -198,7 +216,8 @@ body{
 
 .card-price{
     display: inline-block;
-    color: #3c3c3c;
+    color: white;
+    background-color: #3c3c3c;
     font-family:'Pompins' serif;
     font-size: 1.9em;
     font-weight: 600;
